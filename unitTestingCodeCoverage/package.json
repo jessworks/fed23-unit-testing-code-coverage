@@ -19,6 +19,9 @@
     "preset": "ts-jest",
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/src/__mocks__/styleMock.ts"
-    }
+    },
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageReporters": ["html"]
   }
 }
