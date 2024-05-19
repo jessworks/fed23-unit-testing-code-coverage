@@ -16,7 +16,7 @@
     "vite": "^5.2.0"
   },
   "jest": {
-    "preset": "ts-test",
+    "preset": "ts-jest",
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/src/__mocks__/styleMock.ts"
     }
